@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+header, section, footer {
+  padding: 60px 20px;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 12px;
+}
+nav a {
+  color: #fff;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hero {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 20px;
+  text-align: left;
+}
+.hero span:nth-child(2) {
+  color: #d2a195;
+  text-decoration: none;
+}
+.small-text {
+  font-size: 12px;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-left: 0px;   
+  text-align: left;   
+  font-weight: normal;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #000;
+  background-color:#fff;
+  text-decoration: none;
+  font: weight 600px;;
+}
+.image-section img,
+.image-section video {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  text-decoration: none;
+}
+.section-title {
+  font-size: 24px;
+  line height: 1.6;
+  text align:center;
+  font-weight: 600;
+  margin top: 40px ;
+  margin-bottom : 20px;
+
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.column {
+  .columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Text aur image vertically align hon */
+  gap: 40px;
+  margin-top: 40px;
+  padding: 40px 20px;  /* Thoda spacing dono side se */
+  flex: 1 1 400px;
+  max-width: 500px;
+  text-align: left;
+}
+
+}
+.column img {
+  width: 100%;
+  max-width: 400px;
+  transform: translateX(-20px);  /* ya margin-left: -20px; bhi use kar sakti ho */
+}
+
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+}
+footer {
+  font-size: 10px;
+  color: #ccc;
+}
+footer nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer {
+  background: #000;
+  color: white;
+  padding: 60px 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-left {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-left li {
+  font-size: 12px;
+  margin: 8px 0;
+  letter-spacing: 1px;
+}
+
+.footer-center {
+  text-align: center;
+  flex: 1 1 100%;
+  margin: 30px 0;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.newsletter-btn {
+  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons a img {
+  width: 18px;
+  margin-left: 15px;
+  filter: brightness(100);
+}
+
+.button.white-button {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 24px;
+  font-size: 12px;
+  text-decoration: none;
+}
